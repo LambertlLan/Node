@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>照片</title>
+</head>
+<body>
+<ul>
+    <% for(var i=0;i< files.length;i++){ %>
+    <li><img src="./albums/<%= path %>/<%= files[i] %>" alt=""></li>
+    <% } %>
+</ul>
+</body>
+</html>

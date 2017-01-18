@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相册</title>
+</head>
+<body>
+<ul>
+    <% for(var i=0;i< dir.length;i++){ %>
+        <li><a href="http://192.168.1.132/<%= dir[i] %>"><%= dir[i] %></a></li>
+    <% } %>
+</ul>
+</body>
+</html>
